@@ -99,6 +99,15 @@ p {
 nav.navbar {
     padding: 20px 0;
 }
+
+.navbar-nav .nav-item.active .nav-link {
+    border: 0;
+    background: transparent;
+    border-bottom: 2px solid #0e80fc;
+    color: #0e80fc;
+}
+
+
 li.nav-item.dropdown:after {
     display: inline-block;
     position: absolute;
